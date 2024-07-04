@@ -1,0 +1,27 @@
+git clone https://github.com/ibrahimmohamady11/ansible.git
+
+wget https://github.com/ibrahimmohamady11/ansible/raw/master/ansibleV5.zip 
+====================================================================================
+
+sudo wget https://repo.mysql.com/mysql80-community-release-el8-1.noarch.rpm
+sudo yum localinstall mysql80-community-release-el8-1.noarch.rpm
+
+====================================================================================
+CM 7.10.1
+
+https://[username]:[password]archive.cloudera.com/p/cm7/7.10.1/redhat8/yum/
+
+https://[username]:[password]archive.cloudera.com/p/cm7/7.10.1/allkeys.asc
+
+-----------------------------------------------------------------------------
+CDP 7.1.7 SP2
+
+https://[username]:[password]archive.cloudera.com/p/cdh7/7.1.7.2000/parcels/CDH-7.1.7-1.cdh7.1.7.p2000.37147774-el8.parcel
+
+https://[username]:[password]archive.cloudera.com/p/cdh7/7.1.7.2000/parcels/CDH-7.1.7-1.cdh7.1.7.p2000.37147774-el8.parcel.sha1
+
+https://[username]:[password]archive.cloudera.com/p/cdh7/7.1.7.2000/parcels/CDH-7.1.7-1.cdh7.1.7.p2000.37147774-el8.parcel.sha256
+
+https://[username]:[password]archive.cloudera.com/p/cdh7/7.1.7.2000/parcels/manifest.json
+
+==========================================================================================
