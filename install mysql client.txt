@@ -1,0 +1,16 @@
+# dnf instsall gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+
+# dnf install python38-devel mysql-devel gcc
+
+# dnf install xmlsec1 xmlsec1-openssl
+
+--------------------------------------
+# export PATH=/usr/local/bin:$PATH
+
+# python3.8 -m pip install --trusted-host [pypi.org](http://pypi.org/) --trusted-host [files.pythonhosted.org](http://files.pythonhosted.org/) cx_Oracle
+
+# python3.8 -m pip install --trusted-host [pypi.org](http://pypi.org/) --trusted-host [files.pythonhosted.org](http://files.pythonhosted.org/) mysqlclient
+
+# python3.8 -m pip list
+
+# chmod -R o+rX /usr/local/lib64/python3.8/
