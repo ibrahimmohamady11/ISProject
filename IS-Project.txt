@@ -5,6 +5,26 @@ wget https://github.com/ibrahimmohamady11/ansible/raw/master/ansibleV5.zip
 
 sudo wget https://repo.mysql.com/mysql80-community-release-el8-1.noarch.rpm
 sudo yum localinstall mysql80-community-release-el8-1.noarch.rpm
+===================================================================================
+
+----------------------------------------------------------------------------------
+#download mysql-connectoer file. and extract it and then cp mysql-connector.jar to /usr/share/java 
+
+wget https://downloads.mysql.com/archives/get/p/3/file/mysql-connector-java-5.1.48.tar.gz
+
+tar xzvf mysql-connector-java-5.1.48.talr.gz
+
+
+cd mysql-connector-java-5.1.48
+
+*note the file name must be  mysql-connector-java.jar
+
+cp mysql-connector-5.1.48-bin.jar to /usr/share/java/mysql-connector-java.jar 
+
+sudo chmod -R 775 /usr/share/java
+
+sudo chown -R root:root /usr/share/java
+
 
 ====================================================================================
 CM 7.10.1
