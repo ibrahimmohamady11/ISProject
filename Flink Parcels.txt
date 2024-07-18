@@ -1,0 +1,15 @@
+Flink parcels download:
+Parcels:
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/parcels/FLINK-1.15.1-csa1.8.0.5-cdh7.1.8.0-801-54149945-el7.parcel 
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/parcels/FLINK-1.15.1-csa1.8.0.5-cdh7.1.8.0-801-54149945-el7.parcel.sha1
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/parcels/manifest.json
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/csd/FLINK-1.15.1-csa1.8.0.5-cdh7.1.8.0-801-54149945.jar
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/csd/SQL_STREAM_BUILDER-1.15.1-csa1.8.0.5-cdh7.1.8.0-801-54149945.jar
+
+wget --recursive --no-parent --no-host-directories https://username:password@archive.cloudera.com/p/csa/1.8.0.5/release_manifest.json
+
